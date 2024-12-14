@@ -10,7 +10,7 @@ const Section4 = () => {
             loop
             muted
             className=" absolute top-0 left-0  object-cover object-center"
-            src="/public/moon.mp4"
+            src="//moon.mp4"
           ></video>
           <div className="z-50 flex justify-cennter items-center">
             <h1 className="text-zinc-200 font-[anzo1] uppercase text-center tracking-tighter text-[25vw]">About</h1>

@@ -9,7 +9,7 @@ const Section9 = () => {
           loop
           muted
           className=" absolute top-0 left-0  object-cover object-center"
-          src="/public/bg2.mp4"
+          src="/bg2.mp4"
         ></video>
         <div className="flex flex-col gap-10">
           <div className="z-50 flex flex-col leading-none  justify-cennter items-center">

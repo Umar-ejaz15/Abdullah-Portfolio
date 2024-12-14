@@ -2,7 +2,7 @@ import React from "react";
 
 const TiltText = () => {
   return (
-    <div className="flex flex-col  mt-10 tracking-tighter  ">
+    <div className="flex flex-col  mt-32 ml-20 tracking-tighter  ">
       <h1 className="text-[6vw] leading-none uppercase font-[anzo1]">
         I am <span className="font-[anzo2] text-purple-700">Dark Mode</span>
       </h1>

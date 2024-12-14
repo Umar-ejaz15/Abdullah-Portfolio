@@ -15,10 +15,10 @@ const Section2 = () => {
       stagger: 1,
       scrollTrigger: {
         trigger: ".rotateText",
-        markers: true,
+        // markers: true,
         scrub: true,
         start: "top 50%",
-        end: "bottom -200%",
+        end: "bottom -150%",
         // toggleActions: "play none none reverse"
       },
     });

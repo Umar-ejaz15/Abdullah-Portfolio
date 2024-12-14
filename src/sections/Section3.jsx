@@ -1,19 +1,15 @@
 import React from "react";
 import Brands from "../components/Brands";
+import Tv from "../components/Tv";
 
 const Section3 = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <Brands />
-      <div className="flex justify-center py-10">
+      <div className="flex justify-center py-10 w-full">
         <div className="w-1/2 h-1 bg-black/20"></div>
       </div>
-      <div className="flex relative justify-center items-center">
-        <div className="w-1/2 h-1/2 overflow-hidden">
-          <img className="py-10 w-full h-full overflow-hidden" src="/empty.avif" alt="placeholder" />
-        </div>
-        
-      </div>
+      <Tv/>
     </div>
   );
 };

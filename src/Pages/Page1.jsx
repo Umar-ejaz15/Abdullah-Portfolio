@@ -11,22 +11,31 @@ import Section9 from "../sections/Section9";
 import Section10 from "../sections/Section10";
 import Section11 from "../sections/Section11";
 import SectionLast from "../sections/SectionLast";
+import Gallary from "../sections/Gallary";
 
 const Page1 = () => {
   return (
     <>
+    <div className="flex flex-col gap-20">
+
       <Section1 />
       <Section2 />
       <Section3 />
       <Section5 />
       <Section6 />
       <Section4 />
+
       <Section7 />
+      <Gallary/>
       <Section8/>
       <Section9/>
       <Section10/>
       <Section11/>
+
+
       <SectionLast/>
+    </div>
+
     </>
   );
 };

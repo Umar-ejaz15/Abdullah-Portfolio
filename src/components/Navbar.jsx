@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 z-50 w-full h-16  text-white flex items-center justify-between p-20">
+    <nav className="w-screen fixed top-0 z-50 w-full h-16  text-white flex items-center justify-between p-20">
       <div className="w-12 h-12">
         <img
           className="w-full h-full object-contain rounded-full border-2 border-purple-500"

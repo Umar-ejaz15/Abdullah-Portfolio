@@ -9,7 +9,7 @@ const Section3 = () => {
       <div className="flex justify-center py-10 w-full">
         <div className="w-1/2 h-1 bg-black/20"></div>
       </div>
-      <Tv/>
+      
     </div>
   );
 };

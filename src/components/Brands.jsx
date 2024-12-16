@@ -2,7 +2,7 @@ import React from "react";
 
 const Brands = () => {
   return (
-   <div className="flex flex-col items-center justify-center  scale-50 py-10">
+   <div className="flex flex-col items-center justify-center  scale-[0.19] md:scale-50 py-10">
      <svg
       preserveAspectRatio="xMidYMid meet"
       data-bbox="4 0 2028.339 83"

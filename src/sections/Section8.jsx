@@ -3,13 +3,14 @@ import React from "react";
 const Section8 = () => {
   return (
     <div
-      className="w-full h-screen bg-black bg-cover bg-center relative"
+      className="w-full h-auto bg-black bg-cover bg-center "
     >
       <img
-        className="absolute img2 w-full h-1/2 md:h-full object-cover"
+        className=" img2 w-full h-full  object-cover"
         src="/skills.avif"
         alt="Skills"
       />
+      
     </div>
   );
 };

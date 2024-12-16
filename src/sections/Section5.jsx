@@ -4,7 +4,7 @@ const Section5 = () => {
   return (
     <>
       <div className="w-full h-auto bg-gradient-to-b from-gray-900 to-black px-6 py-4">
-        <div className="w-full h-full overflow-hidden flex flex-col justify-between py-20 px-8 md:px-20 relative rounded-3xl">
+        <div className="w-full h-full overflow-hidden flex flex-col justify-between   relative rounded-3xl">
           <img
             className="absolute top-0 left-0 w-full h-full object-cover opacity-40 transition-opacity hover:opacity-35"
             src="/what i do.avif"

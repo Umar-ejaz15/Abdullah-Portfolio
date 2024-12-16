@@ -27,6 +27,22 @@
     /* transform: rotateY(30deg); */
     /* transform: rotateX(30deg); */
     /* transform: rotateZ(30deg); */
-
 }
 
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #18181b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #52525b;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #71717a;
+}

@@ -13,29 +13,29 @@ import Section11 from "../sections/Section11";
 import SectionLast from "../sections/SectionLast";
 import Gallary from "../sections/Gallary";
 
+import LocomotiveScroll from "locomotive-scroll";
 const Page1 = () => {
+  const locomotiveScroll = new LocomotiveScroll();
+
   return (
     <>
-    <div className="flex flex-col gap-20">
+      <div className="flex flex-col gap-20">
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section5 />
+        <Section6 />
+        <Section4 />
 
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section5 />
-      <Section6 />
-      <Section4 />
+        <Section7 />
+        <Gallary />
+        <Section8 />
+        <Section9 />
+        <Section10 />
+        <Section11 />
 
-      <Section7 />
-      <Gallary/>
-      <Section8/>
-      <Section9/>
-      <Section10/>
-      <Section11/>
-
-
-      <SectionLast/>
-    </div>
-
+        <SectionLast />
+      </div>
     </>
   );
 };

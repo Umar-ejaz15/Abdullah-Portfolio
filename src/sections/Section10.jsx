@@ -2,7 +2,7 @@ import React from "react";
 
 const Section10 = () => {
   return (
-    <div className="w-full h-screen bg-white">
+    <div className="w-full h-auto bg-white">
       <div className="w-full h-full overflow-hidden flex flex-col justify-between py-20 px-20 relative object-cover object-center bg-cover bg-gradient-to-r from-black via-zinc-950 to-zinc-800 text-white">
         <video
           autoPlay

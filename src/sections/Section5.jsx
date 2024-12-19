@@ -3,7 +3,7 @@ import React from "react";
 const Section5 = () => {
   return (
     <>
-      <div className="w-full h-screen  relative">
+      <div className="w-full h-auto md:h-screen  relative">
         <div className="w-full h-full overflow-hidden flex flex-col justify-between    ">
           <img
             className="absolute top-0 left-0 w-full h-full object-cover "

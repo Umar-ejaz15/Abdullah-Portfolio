@@ -4,13 +4,13 @@ const Section5 = () => {
   return (
     <>
       <div className="w-full h-auto md:h-screen  relative">
-        <div className="w-full h-full overflow-hidden flex flex-col justify-between    ">
+        <div className="w-full h-full py-10 overflow-hidden flex flex-col justify-between    ">
           <img
             className="absolute top-0 left-0 w-full h-full object-cover "
             src="/what i do.avif"
             alt="background"
           />
-          <div className=" w-full h-full items-center px-10 relative z-10 flex flex-col md:flex-row text-white justify-between gap-12">
+          <div className=" w-full h-full items-center  px-10 relative z-10 flex flex-col md:flex-row text-white justify-between gap-12">
             <div className="flex flex-col gap-8">
               <div className="text-[8vw] md:text-[6vw] font-[anzo1] uppercase tracking-tighter leading-none animate-fade-in">
                 <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300">WHAT</h1>

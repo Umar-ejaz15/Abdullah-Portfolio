@@ -15,11 +15,13 @@ const Section1 = () => {
     reset: true,
     easing: "cubic-bezier(.03,.98,.52,.99)",
   };
+  
 
   return (
     <>
-      <div className="w-full h-screen overflow-hidden">
-        <div className="w-full h-full flex flex-col justify-between relative bg-gradient-to-r from-black via-zinc-950 to-zinc-800 text-white">
+      <div className="w-full h-screen relative overflow-hidden">
+      
+        <div id="bg1" className="w-full h-full flex flex-col justify-between relative  text-white">
           <Tilt
             className="absolute inset-0 w-full h-full z-10 md:block hidden"
             options={defaultOptions}

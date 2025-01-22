@@ -19,7 +19,7 @@ const Page1 = () => {
 
   return (
     <>
-      <div className="flex flex-col gap-20">
+      <div className="flex flex-col gap-1">
         <Section1 />
         <Section2 />
         <Section3 />

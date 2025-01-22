@@ -28,34 +28,34 @@ const Section6 = () => {
   });
   return (
     <div>
-      <div id="section1" className="flex text-zic-800 justify-center items-center flex-col ">
+      <div id="section1" className="w-full h-auto flex text-zinc-800 justify-center items-center flex-col px-4 sm:px-6 md:px-8">
         <div className="rotateText1">
-          <h1 className="text-[17vw]  font-[anzo1] leading-[19vw] uppercase  tracking-tighter">
+          <h1 className="text-[12vw] sm:text-[14vw] md:text-[17vw] font-[anzo1] leading-[14vw] sm:leading-[16vw] md:leading-[19vw] uppercase tracking-tighter">
             HELPING
           </h1>
         </div>
         <div className="rotateText1">
-          <h1 className="text-[17vw] font-[anzo1] leading-[19vw] uppercase  tracking-tighter">
+          <h1 className="text-[12vw] sm:text-[14vw] md:text-[17vw] font-[anzo1] leading-[14vw] sm:leading-[16vw] md:leading-[19vw] uppercase tracking-tighter">
             MY
           </h1>
         </div>
         <div className="rotateText1">
-          <h1 className="text-[17vw] font-[anzo1] leading-[19vw] uppercase  tracking-tighter">
+          <h1 className="text-[12vw] sm:text-[14vw] md:text-[17vw] font-[anzo1] leading-[14vw] sm:leading-[16vw] md:leading-[19vw] uppercase tracking-tighter">
             CLIENTS
           </h1>
         </div>
         <div className="rotateText1">
-          <h1 className="text-[17vw] font-[anzo1] leading-[19vw] uppercase  tracking-tighter">
+          <h1 className="text-[12vw] sm:text-[14vw] md:text-[17vw] font-[anzo1] leading-[14vw] sm:leading-[16vw] md:leading-[19vw] uppercase tracking-tighter">
             TO ACHIEVE
           </h1>
         </div>
         <div className="rotateText1">
-          <h1 className="text-[17vw] font-[anzo1] leading-[19vw] uppercase  tracking-tighter">
+          <h1 className="text-[12vw] sm:text-[14vw] md:text-[17vw] font-[anzo1] leading-[14vw] sm:leading-[16vw] md:leading-[19vw] uppercase tracking-tighter">
             THEIR
           </h1>
         </div>
         <div className="rotateText1">
-          <h1 className="text-[17vw] font-[anzo1] leading-[19vw] uppercase  tracking-tighter">
+          <h1 className="text-[12vw] sm:text-[14vw] md:text-[17vw] font-[anzo1] leading-[14vw] sm:leading-[16vw] md:leading-[19vw] uppercase tracking-tighter">
             DREAMS!
           </h1>
         </div>

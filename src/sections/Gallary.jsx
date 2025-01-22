@@ -1,4 +1,10 @@
 import React from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCoverflow, Pagination, Navigation, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const Gallary = () => {
   const projects = [
@@ -8,7 +14,6 @@ const Gallary = () => {
         image: "/WhatsApp Image 2024-12-13 at 10.00.22 AM.jpeg",
         category: "Posters",
       },
-  
       {
         id: 12,
         title: "3D Design Showcase",
@@ -83,33 +88,56 @@ const Gallary = () => {
         <h2 className="text-5xl uppercase font-extrabold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-zinc-400 to-white">
            Gallery
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <Swiper
+          effect={'coverflow'}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={'auto'}
+          coverflowEffect={{
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          }}
+          pagination={{ clickable: true }}
+          navigation={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
+
+          className="mySwiper w-full"
+        >
           {projects.map((project) => (
-            <div
-              key={project.id}
-              className="group relative overflow-hidden rounded-xl shadow-2xl transform hover:-translate-y-2 transition-all duration-500 hover:shadow-[0_0_30px_rgba(161,161,170,0.5)]"
-            >
-              <div className="aspect-w-16 aspect-h-12">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500">
-                <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
-                  <h3 className="text-2xl font-bold mb-3 text-white drop-shadow-lg">
-                    {project.title}
-                  </h3>
-                  <span className="inline-block px-4 py-2 bg-gradient-to-r from-zinc-700 to-zinc-900 rounded-full text-sm font-semibold shadow-lg">
-                    {project.category}
-                  </span>
+
+            <SwiperSlide key={project.id} className="w-full max-w-[800px]">
+              <div className="group relative overflow-hidden rounded-xl shadow-2xl">
+
+                <div className="w-full h-[600px]">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+
+                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out"
+                  />
                 </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500">
+                  <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
+                    <h3 className="text-2xl font-bold mb-3 text-white drop-shadow-lg">
+                      {project.title}
+                    </h3>
+                    <span className="inline-block px-4 py-2 bg-gradient-to-r from-zinc-700 to-zinc-900 rounded-full text-sm font-semibold shadow-lg">
+                      {project.category}
+                    </span>
+                  </div>
+                </div>
+                <div className="absolute top-0 left-0 w-full h-full bg-zinc-500 opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
               </div>
-              <div className="absolute top-0 left-0 w-full h-full bg-zinc-500 opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
-            </div>
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
       </div>
     </div>
   );

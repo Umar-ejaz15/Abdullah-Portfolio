@@ -6,9 +6,9 @@ const Section3 = () => {
   return (
     <div className="flex flex-col items-center">
       <Brands />
-      <div className="flex justify-center py-10 w-full">
-        <div className="w-1/2 h-1 bg-black/20"></div>
-      </div>
+      <div className="w-1/2 h-1 bg-black/20  "></div>
+
+      
       
     </div>
   );

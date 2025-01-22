@@ -26,8 +26,8 @@ const Section2 = () => {
   });
   return (
     <>
-      <div className="relative w-full h-auto">
-        <h1 className="text-center  text-base sm:text-lg md:text-xl text-zinc-600 py-3 sm:py-4 md:py-5 uppercase">
+      <div className="relative w-full h-auto flex flex-col items-center justify-center">
+        <h1 className="text-center text-base sm:text-lg md:text-xl text-zinc-600 py-3 sm:py-4 md:py-5 uppercase">
           © Design Dynamo 2024 | design
         </h1>
         <div
@@ -41,12 +41,12 @@ const Section2 = () => {
           </div>
           <div className="rotateText">
             <h1 className="text-[12vw] sm:text-[14vw] md:text-[17vw] font-[anzo1] leading-[14vw] sm:leading-[16vw] md:leading-[19vw] uppercase tracking-tighter">
-              Design{" "}
+              Design
             </h1>
           </div>
           <div className="rotateText">
             <h1 className="text-[12vw] sm:text-[14vw] md:text-[17vw] font-[anzo1] leading-[14vw] sm:leading-[16vw] md:leading-[19vw] uppercase tracking-tighter">
-              Is the{" "}
+              Is the
             </h1>
           </div>
           <div className="rotateText">

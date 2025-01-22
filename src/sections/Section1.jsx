@@ -17,9 +17,22 @@ const Section1 = () => {
   };
 
   return (
-    <div className="w-full h-[90vh] relative overflow-hidden">
-      <div id="bg1" className="w-full  h-full flex flex-col justify-between relative text-white">
-        <Tilt className="absolute inset-0 w-full h-[70%] z-10 md:block hidden" options={defaultOptions}>
+    <div className="w-full h-[95vh] relative overflow-hidden">
+      {/* <div className=" absolute top-0 left-0 w-full h-full z-10 "> 
+        <img
+        className="w-full h-full"
+          src=""
+          alt=""
+        />
+      </div> */}
+      <div
+        id="bg1"
+        className="w-full  h-full flex flex-col justify-between relative text-white"
+      >
+        <Tilt
+          className="absolute inset-0 w-full h-[70%] z-10 md:block hidden"
+          options={defaultOptions}
+        >
           <TiltText />
         </Tilt>
         <div className="md:hidden block absolute inset-0 w-full h-[70%] z-10">

@@ -83,7 +83,7 @@ const Gallary = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950 text-white py-20">
+    <div className="h-auto bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950 text-white py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl uppercase font-extrabold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-zinc-400 to-white">
            Gallery
@@ -110,9 +110,9 @@ const Gallary = () => {
           className="mySwiper w-full"
         >
           {projects.map((project) => (
-            <SwiperSlide key={project.id} className="w-full max-w-[800px]">
+            <SwiperSlide key={project.id} className=" px-5 w-full max-w-[800px]">
               <div className="group relative overflow-hidden rounded-xl shadow-2xl">
-                <div className="w-full h-[600px]">
+                <div className="w-full h-[400px] md:h-[600px]">
                   <img
                     src={project.image}
                     alt={project.title}

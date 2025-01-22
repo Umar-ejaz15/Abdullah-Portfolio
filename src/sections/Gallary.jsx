@@ -107,19 +107,15 @@ const Gallary = () => {
             disableOnInteraction: false,
           }}
           modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
-
           className="mySwiper w-full"
         >
           {projects.map((project) => (
-
             <SwiperSlide key={project.id} className="w-full max-w-[800px]">
               <div className="group relative overflow-hidden rounded-xl shadow-2xl">
-
                 <div className="w-full h-[600px]">
                   <img
                     src={project.image}
                     alt={project.title}
-
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out"
                   />
                 </div>

@@ -17,7 +17,7 @@ const Section1 = () => {
   };
 
   return (
-    <div className="w-full h-screen relative overflow-hidden">
+    <div className="w-full h-[90vh] relative overflow-hidden">
       <div id="bg1" className="w-full  h-full flex flex-col justify-between relative text-white">
         <Tilt className="absolute inset-0 w-full h-[70%] z-10 md:block hidden" options={defaultOptions}>
           <TiltText />

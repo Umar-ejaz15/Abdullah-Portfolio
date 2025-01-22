@@ -30,7 +30,7 @@ const Section7 = () => {
           alt="background pattern"
         />
         <div className="flex flex-col md:flex-row justify-between items-center z-10 gap-4 md:gap-0">
-          <div className="hover:scale-105 transition-transform duration-300">
+          <div className="hover:scale-105 flex gap-5 transition-transform duration-300">
             <h1 className="text-[12vw] md:text-[8vw] leading-none font-[anzo1] tracking-tighter bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
               HOW
             </h1>
@@ -38,7 +38,7 @@ const Section7 = () => {
               CAN
             </h1>
           </div>
-          <div className="hover:scale-105 transition-transform duration-300">
+          <div className="hover:scale-105 flex gap-5 transition-transform duration-300">
             <h1 className="text-[12vw] md:text-[8vw] leading-none font-[anzo1] tracking-tighter bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
               I HELP
             </h1>

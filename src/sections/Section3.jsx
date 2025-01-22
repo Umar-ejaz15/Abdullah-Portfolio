@@ -4,12 +4,11 @@ import Tv from "../components/Tv";
 
 const Section3 = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col  items-center">
       <Brands />
-      <div className="w-1/2 h-1 bg-black/20  "></div>
-
-      
-      
+      <div className="py-5 md:py-10 w-full flex flex-col items-center justify-center">
+        <div className="w-2/3 h-[1px] bg-black/40  "></div>
+      </div>
     </div>
   );
 };

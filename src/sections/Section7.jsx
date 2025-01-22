@@ -12,6 +12,7 @@ const Section7 = () => {
       duration: 3,
       ease: "power2.inOut",
       yoyo: true,
+      transformOrigin: "center center",
       scrollTrigger: {
         trigger: ".img1",
         scrub: 1,
@@ -22,10 +23,10 @@ const Section7 = () => {
     });
   });
   return (
-    <div className="w-full h-auto bg-white">
-      <div className="w-full h-auto overflow-hidden flex flex-col justify-between py-6 md:py-12 px-4 md:px-16 relative bg-black text-white">
+    <div className="w-full h-screen bg-white">
+      <div className="w-full h-screen overflow-hidden flex flex-col justify-between py-6 md:py-12 px-4 md:px-16 relative bg-black text-white">
         <img
-          className="img1 absolute w-[90%] md:w-[80%] h-[90%] md:h-[80%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-contain opacity-70"
+          className="img1 absolute w-[90%] md:w-[80%] h-[90%] md:h-[60%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-contain opacity-70"
           src="/triangle.avif"
           alt="background pattern"
         />

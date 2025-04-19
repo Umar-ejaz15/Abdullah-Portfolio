@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Section5 = () => {
   return (
@@ -12,16 +13,36 @@ const Section5 = () => {
           />
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 h-full">
-              <div className="flex flex-col gap-8 w-full md:w-1/2">
+              <motion.div 
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: false }}
+                transition={{ duration: 0.6 }}
+                className="flex flex-col gap-8 w-full md:w-1/2">
                 <div className="text-[8vw] sm:text-[6vw] md:text-[4vw] flex flex-wrap gap-5 py-8 font-[anzo1] uppercase tracking-tighter leading-none animate-fade-in">
-                  <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300">
+                  <motion.h1 
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: false }}
+                    transition={{ duration: 0.4 }}
+                    className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300">
                     WHAT
-                  </h1>
-                  <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300">
+                  </motion.h1>
+                  <motion.h1 
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: false }}
+                    transition={{ duration: 0.4, delay: 0.2 }}
+                    className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300">
                     I DO
-                  </h1>
+                  </motion.h1>
                 </div>
-                <div className="backdrop-blur-sm bg-black/20 p-4 sm:p-6 rounded-xl w-full">
+                <motion.div 
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: false }}
+                  transition={{ duration: 0.6, delay: 0.3 }}
+                  className="backdrop-blur-sm bg-black/20 p-4 sm:p-6 rounded-xl w-full">
                   <p className="text-base sm:text-lg font-[anzo2] uppercase mb-6 text-gray-200">
                     I design graphic designs, logos, posters, social media posts,
                     banners, thumbnails and everything
@@ -52,10 +73,20 @@ const Section5 = () => {
                       Video Thumbnails
                     </li>
                   </ul>
-                </div>
-              </div>
-              <div className="flex flex-col gap-6 w-full md:w-1/2 lg:w-2/5">
-                <div className="backdrop-blur-sm bg-black/30 p-4 sm:p-6 rounded-xl hover:bg-black/40 transition-colors">
+                </motion.div>
+              </motion.div>
+              <motion.div 
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: false }}
+                transition={{ duration: 0.6 }}
+                className="flex flex-col gap-6 w-full md:w-1/2 lg:w-2/5">
+                <motion.div 
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: false }}
+                  transition={{ duration: 0.6, delay: 0.4 }}
+                  className="backdrop-blur-sm bg-black/30 p-4 sm:p-6 rounded-xl hover:bg-black/40 transition-colors">
                   <h3 className="text-xl sm:text-2xl font-[anzo1] uppercase mb-4 text-purple-300">
                     Tools I Master
                   </h3>
@@ -76,8 +107,13 @@ const Section5 = () => {
                       <span className="text-purple-400">•</span> After Effects
                     </li>
                   </ul>
-                </div>
-                <div className="backdrop-blur-sm bg-black/30 p-4 sm:p-6 rounded-xl hover:bg-black/40 transition-colors">
+                </motion.div>
+                <motion.div 
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: false }}
+                  transition={{ duration: 0.6, delay: 0.5 }}
+                  className="backdrop-blur-sm bg-black/30 p-4 sm:p-6 rounded-xl hover:bg-black/40 transition-colors">
                   <h3 className="text-xl sm:text-2xl font-[anzo1] uppercase mb-4 text-purple-300">
                     Work Process
                   </h3>
@@ -103,8 +139,8 @@ const Section5 = () => {
                       Support
                     </li>
                   </ul>
-                </div>
-              </div>
+                </motion.div>
+              </motion.div>
             </div>
           </div>
         </div>

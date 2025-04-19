@@ -12,13 +12,17 @@
 }
 @font-face{
     font-family: 'anzo3';
-    src: url('./assets/file (1).woff2');
+    src: url('./assets//font/molika.woff');
 }
 @font-face{
     font-family: 'anzo4';
-    src: url('./assets/file (2).woff2');
+    src: url('./assets/font2/Cropar.otf');
 }
-
+#stroke{
+    -webkit-text-stroke: 1px white;
+    text-stroke: 1px white;
+    
+}
 .rotateText {
     /* writing-mode: vertical-rl; */
     /* text-orientation: upright; */

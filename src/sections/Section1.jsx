@@ -14,7 +14,7 @@ const Section1 = () => {
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2, type: "spring", stiffness: 100 }}
-          className="uppercase text-[#dad7e8] font-bold font-[anzo3] text-[80px] sm:text-[80px] md:text-[100px] lg:text-[150px] leading-none"
+          className="uppercase text-[#dad7e8] font-bold font-[anzo3] text-[80px] sm:text-[80px] md:text-[100px] lg:text-[100px] leading-none"
         >
           I'm a Dark
         </motion.h1>
@@ -23,7 +23,7 @@ const Section1 = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4, type: "spring", stiffness: 100 }}
           id="stroke"
-          className="uppercase font-dark font-[anzo3] text-[80px] sm:text-[80px] md:text-[100px] lg:text-[150px] leading-none text-transparent"
+          className="uppercase font-dark font-[anzo3] text-[80px] sm:text-[80px] md:text-[100px] lg:text-[100px] leading-none text-transparent"
         >
           <span className="text-stroke-3 text-stroke-[#dad7e8]">Mode</span>
         </motion.h1>
@@ -32,7 +32,7 @@ const Section1 = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6, type: "spring", stiffness: 100 }}
           id="stroke"
-          className="uppercase font-dark font-[anzo3] text-[80px] sm:text-[80px] md:text-[100px] lg:text-[150px] leading-none text-transparent"
+          className="uppercase font-dark font-[anzo3] text-[80px] sm:text-[80px] md:text-[100px] lg:text-[100px] leading-none text-transparent"
         >
           <span className="text-stroke-3 text-stroke-[#dad7e8]">Designer</span>
         </motion.h1>
@@ -40,7 +40,7 @@ const Section1 = () => {
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.8, type: "spring", stiffness: 100 }}
-          className="uppercase mt-1 md:ml-96 font-dark font-[anzo4] text-xl sm:text-2xl md:text-3xl lg:text-5xl text-[#dad7e8]"
+          className="uppercase mt-1 md:ml-72 font-dark font-[anzo4] text-xl sm:text-2xl md:text-3xl lg:text-3xl text-[#dad7e8]"
         >
           to Hire
         </motion.h1>
@@ -65,7 +65,7 @@ const Section1 = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.6, type: "spring", stiffness: 100 }}
-            className="font-[anzo3] text-[#dad7e8] text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4 sm:mb-6"
+            className="font-[anzo3] text-[#dad7e8] text-4xl sm:text-5xl md:text-6xl lg:text-6xl mb-4 sm:mb-6"
           >
             Welcome
           </motion.h1>
@@ -73,7 +73,7 @@ const Section1 = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8, type: "spring", stiffness: 100 }}
-            className="font-[anzo4] text-[#dad7e8] text-base sm:text-lg mb-4 sm:mb-6 leading-relaxed"
+            className="font-[anzo4] text-[#dad7e8] text-base sm:text-sm mb-4 sm:mb-6 leading-relaxed"
           >
             I'm thrilled you've docked here. I'm Ahmad Abdullah, and I'm
             passionate about helping individuals and businesses
@@ -82,7 +82,7 @@ const Section1 = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1, type: "spring", stiffness: 100 }}
-            className="font-[anzo4] text-[#dad7e8] text-base sm:text-lg leading-relaxed mb-6 sm:mb-8"
+            className="font-[anzo4] text-[#dad7e8] text-base sm:text-sm leading-relaxed mb-6 sm:mb-8"
           >
             like yours communicate effectively through thoughtful and visually
             engaging design. Let's explore how I can help you.
@@ -93,7 +93,7 @@ const Section1 = () => {
             transition={{ duration: 0.5, delay: 1.2 }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="w-full sm:w-auto border-2 border-[#dad7e8] bg-transparent text-[#dad7e8] hover:bg-[#dad7e8] hover:text-[#2d2d2d] font-[anzo4] text-lg sm:text-xl px-10 sm:px-20 py-3 sm:py-5 rounded-full transition-all duration-300"
+            className="w-full sm:w-auto border-2 border-[#dad7e8] bg-transparent text-[#dad7e8] hover:bg-[#dad7e8] hover:text-[#2d2d2d] font-[anzo4] text-sm sm:text-md px-10 sm:px-12 py-3 sm:py-5 rounded-full transition-all duration-300"
           >
             Discover
           </motion.button>

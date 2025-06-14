@@ -11,7 +11,7 @@ const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.8, type: "spring" }}
-      className="w-full fixed top-0 z-50 h-16  text-[#2d2d2d] flex items-center justify-between px-5 py-10"
+      className="w-full z-50 sticky top-0 h-16 shadow-lg bg-zinc-950 text-[#2d2d2d] flex items-center justify-between px-5 py-10"
     >
       <motion.div 
         initial={{ opacity: 0, scale: 0.5 }}

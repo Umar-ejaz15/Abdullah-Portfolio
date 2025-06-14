@@ -50,34 +50,32 @@ const Section7 = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-8 mt-6 md:mt-12 relative z-10 font-[anzo2]">
           <div className="flex-1 p-4 md:p-8 rounded-2xl hover:bg-white/10 transition-all duration-300 backdrop-blur-sm border border-white/10 hover:transform hover:scale-105">
-            <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">Design Excellence</h3>
+            <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">Graphic Design Mastery</h3>
             <p className="text-xs md:text-sm leading-relaxed font-light">
-              I am a self-taught web and brand designer with a passion for
-              creating unique and timeless masterpieces for ambitious
-              professionals, entrepreneurs, artists, and boutique businesses.
-              With over 5 years of experience in crafting exceptional digital
-              experiences.
+              Specializing in comprehensive graphic design solutions including brand identity, 
+              logo design, marketing materials, social media graphics, and print design. 
+              With expertise in Adobe Creative Suite and years of experience creating 
+              visually striking designs that capture brand essence and engage target audiences.
             </p>
           </div>
           <div className="flex-1 p-4 md:p-8 rounded-2xl hover:bg-white/10 transition-all duration-300 backdrop-blur-sm border border-white/10 hover:transform hover:scale-105">
-            <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">Strategic Expertise</h3>
+            <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">Web Development Skills</h3>
             <p className="text-xs md:text-sm leading-relaxed font-light">
-              With a background in strategic marketing and acknowledged
-              expertise in web development, I aim to minimize my client's
-              resources spent on macro and micro-management, marketing research,
-              and hiring a whole team of a larger agency. Offering comprehensive
-              solutions that drive real business results.
+              Proficient in modern web development technologies including HTML5, CSS3, 
+              JavaScript, and popular frameworks like React. Creating responsive, 
+              user-friendly websites with clean code and optimal performance. 
+              Experienced in building both static and dynamic web applications 
+              that deliver exceptional user experiences.
             </p>
           </div>
           <div className="flex-1 p-4 md:p-8 rounded-2xl hover:bg-white/10 transition-all duration-300 backdrop-blur-sm border border-white/10 hover:transform hover:scale-105">
-            <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">Growth & Impact</h3>
+            <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">Creative Solutions</h3>
             <p className="text-xs md:text-sm leading-relaxed font-light">
-              My mission is to drive exceptional growth for my clients by
-              increasing their brand appearance, defining their identity, and
-              engaging customers through captivating black-and-white aesthetics
-              with a modern, luxurious, and minimalistic touch. Focused on
-              creating lasting impressions that convert visitors into loyal
-              customers.
+              Combining graphic design expertise with web development skills to deliver 
+              complete digital solutions. From concept to execution, I create cohesive 
+              brand experiences across all platforms. Specializing in modern, clean designs 
+              that effectively communicate your message while ensuring technical excellence 
+              in implementation.
             </p>
           </div>
         </div>

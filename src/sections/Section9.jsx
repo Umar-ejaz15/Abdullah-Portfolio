@@ -12,25 +12,25 @@ const Section9 = () => {
           src="/bg2.mp4"
         ></video>
         <div className="flex flex-col gap-10">
-          <div className="z-50 flex flex-col leading-none justify-center items-center">
+          <div className="z-10 flex flex-col leading-none justify-center items-center">
             <h1 className="text-zinc-200 font-[anzo1] uppercase text-center tracking-tighter text-[8vw]">
-              DESIGN TOOLS
+              WEB DEVELOPMENT
             </h1>
-            <p className="text-xl mt-4">Photoshop, Illustrator, InDesign, Figma, After Effects</p>
+            <p className="text-xl mt-4">HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, Node.js</p>
           </div>
 
           <div className="z-50 flex flex-col leading-none justify-center items-center">
             <h1 className="text-zinc-200 font-[anzo1] uppercase text-center tracking-tighter text-[8vw]">
-              EXPERTISE
+              GRAPHIC DESIGN
             </h1>
-            <p className="text-xl mt-4">Logo Design, Print Design, Digital Marketing, Social Media Graphics, Web Design</p>
+            <p className="text-xl mt-4">Logo Design, Brand Identity, UI/UX Design, Social Media Graphics, Print Design</p>
           </div>
 
           <div className="z-50 flex flex-col leading-none justify-center items-center">
             <h1 className="text-zinc-200 font-[anzo1] uppercase text-center tracking-tighter text-[8vw]">
-              SPECIALTIES
+              TOOLS & SOFTWARE
             </h1>
-            <p className="text-xl mt-4">Visual Branding, Package Design, Editorial Design, Advertising Graphics, Icon Design</p>
+            <p className="text-xl mt-4">VS Code, Git, Figma, Adobe Photoshop, Adobe Illustrator, Adobe XD</p>
           </div>
         </div>
       </div>

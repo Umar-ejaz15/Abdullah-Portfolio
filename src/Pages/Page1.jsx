@@ -21,13 +21,13 @@ const Page1 = () => {
     <>
       <div className="flex flex-col gap-1">
         <Section1 />
-        <Section2 />
+        {/* <Section2 /> */}
         {/* <Section3 /> */}
-        <Section5 />
+        {/* <Section5 /> */}
         <Section4 />
         <Section7 />
         <Gallary />
-        <Section8 />
+        {/* <Section8 /> */}
         <Section9 />
         {/* <Section10 /> */}
         <Section11 />

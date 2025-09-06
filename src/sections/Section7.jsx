@@ -2,30 +2,28 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import React from "react";
-
-// React Icons
 import { FaPaintBrush, FaYoutube, FaUsers, FaShoppingBag, FaBusinessTime } from "react-icons/fa";
 import { MdWeb, MdOutlineBrandingWatermark, MdInsertPhoto, MdSlideshow } from "react-icons/md";
 import { AiOutlineSketch, AiOutlineLayout, AiOutlineFileProtect } from "react-icons/ai";
 import { TbCards, TbShirt } from "react-icons/tb";
+import { motion } from "motion/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const Section7 = () => {
   useGSAP(() => {
-    gsap.to(".img1", {
+    gsap.to(".shape", {
       rotation: 360,
       scale: 1.1,
-      duration: 3,
+      duration: 20,
       ease: "power2.inOut",
       yoyo: true,
       transformOrigin: "center center",
       scrollTrigger: {
-        trigger: ".img1",
+        trigger: ".shape",
         scrub: 1,
-        start: "top center",
-        end: "bottom center",
-        toggleActions: "play pause reverse pause",
+        start: "top bottom",
+        end: "bottom top",
       },
     });
   });
@@ -48,21 +46,26 @@ const Section7 = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen bg-black text-white relative overflow-hidden">
-      {/* Animated Background Shape */}
-      <img
-        className="img1 absolute w-[80%] md:w-[60%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-contain opacity-30"
-        src="/triangle.avif"
-        alt="graphic background"
+    <div className="w-full min-h-screen bg-black text-white relative overflow-hidden px-6 py-20">
+      {/* Gradient Floating Shapes */}
+      <motion.div
+        className="shape absolute w-48 h-48 rounded-full blur-3xl opacity-30 bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-400 top-20 left-10"
+        animate={{ x: ["0%", "5%", "0%"], y: ["0%", "5%", "0%"], scale: [1, 1.2, 1] }}
+        transition={{ repeat: Infinity, duration: 15, ease: "easeInOut" }}
+      />
+      <motion.div
+        className="shape absolute w-64 h-64 rounded-full blur-3xl opacity-20 bg-gradient-to-tr from-green-400 via-teal-400 to-cyan-400 bottom-10 right-20"
+        animate={{ x: ["0%", "-5%", "0%"], y: ["0%", "5%", "0%"], scale: [1, 1.2, 1] }}
+        transition={{ repeat: Infinity, duration: 18, ease: "easeInOut" }}
       />
 
       {/* Heading */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-6 py-20 md:px-16">
         <div className="text-center mb-16">
-          <h1 className="text-[14vw] md:text-[10vw] lg:text-[8vw] font-[anzo1] uppercase tracking-tight bg-gradient-to-r from-white via-gray-300 to-gray-500 bg-clip-text text-transparent leading-none drop-shadow-2xl">
+          <h1 className="text-[14vw] md:text-[10vw] lg:text-[8vw] font-[anzo1] uppercase tracking-tight bg-gradient-to-r from-white via-gray-300 to-gray-500 bg-clip-text text-transparent leading-none drop-shadow-[0_0_25px_rgb(255,255,255)]">
             What I Do
           </h1>
-          <p className="mt-6 text-zinc-300 text-sm md:text-lg max-w-3xl mx-auto backdrop-blur-sm bg-white/5 px-6 py-4 rounded-2xl">
+          <p className="mt-6 text-zinc-300 text-sm md:text-lg max-w-3xl mx-auto backdrop-blur-sm bg-white/5 px-6 py-4 rounded-2xl shadow-[0_0_30px_rgba(255,255,255,0.1)]">
             From logos to full brand identities, digital assets to merchandise — I cover the full spectrum of graphic design. Everything your brand needs, under one creative roof.
           </p>
         </div>
